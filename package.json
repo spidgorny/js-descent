@@ -1,0 +1,17 @@
+{
+  "name": "js-descent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Slawa",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^13.11.1",
+    "binary-file": "^0.2.3",
+    "pcx-js": "^1.1.0"
+  },
+  "scripts": {
+    "read-hog": "ts-node-dev read-hog.ts",
+    "pcx": "ts-node-dev pcx.ts",
+    "read-sdl": "ts-node-dev read-sdl.ts"
+  }
+}
